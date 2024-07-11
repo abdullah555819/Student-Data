@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #142d4c;
+}
+table thead tr th{
+border: 1px solid  black ;
+width: 130px;
+padding: 1% 0;
+  font-family: "Lexend Peta", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  text-align: center;
+  background-color: #385170;
+  color: white;
+}
+
+table tbody tr td{
+border: 1px solid  black ;
+width: 130px;
+padding: 1% 0;
+  font-family: "Lexend Peta", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  text-align: center;
+  background-color: #9fd3c7;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #9fd3c7;
+    color: rgb(2, 2, 2);
+    font-family: "Lexend Peta", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    margin-bottom: 5%;
+}
